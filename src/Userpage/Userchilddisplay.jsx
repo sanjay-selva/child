@@ -29,8 +29,7 @@ export default function Userchilddisplay(){
                 
         <div className="d-fex  justify-content-center row row-cols-3 row-cols-md-4 g-4 ">
           {
-            values.map((data,i)=>
-        
+            values.map((data,i)=>(       
         <div className="card   bg-dark  text-light m-4" id={i} >
   <img src={`http://localhost:5058/upload/image/${data.img}`} className="w-50 card-img-top" alt="Upload image"  />
   <div className="card-body">
@@ -47,7 +46,7 @@ export default function Userchilddisplay(){
   </div>
 </div>
 
-         ) }
+         )) }
 </div>
 </div>
     )

@@ -22,7 +22,7 @@ export default function Userchilddetail(){
         )
 
 
-        axios.post('http://localhost:5058/q89/',{uid,id})
+        axios.post('http://localhost:5058/',{uid,id})
         .then(response=>{
             console.log(response)
 
@@ -36,6 +36,7 @@ export default function Userchilddetail(){
             })
         
     },[])
+    
 
     function requestProcess(event){
             event.preventDefault()

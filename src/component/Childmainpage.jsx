@@ -19,7 +19,7 @@ export default function Childmainpage(){
                        <Childmenu/>
                <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
    
-  <div className="carousel-inner ">
+  <div className="carousel-inner">
    
     <div className="carousel-item active " data-bs-interval="3000">
        

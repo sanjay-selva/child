@@ -5,6 +5,7 @@ const app=(express());
 const path=require('path');
 const multer=require('multer');
 const { request } = require("http");
+const { faDatabase } = require("@fortawesome/free-solid-svg-icons/faDatabase");
 app.use('/upload',express.static('upload'));
 app.use(cors());
 app.use(express.json());
@@ -154,7 +155,7 @@ app.put("/Childupdate/:id",(request,response)=>{
             {
                 return response.json("Error"+err);
             }
-            return response.json(data+"Successfully");
+            return response.json(data);
         });
     });
 
@@ -174,7 +175,7 @@ app.get("/Userchilddetail/:id",(request,response)=>{
 
 //User register
 app.post('/useregister/',(request,response)=>{
-    const sql="insert into userregister(name,phono,email,address,uname,pass)values(?)";
+    const sql="insert into userregister(name,phono,email,address,uname,pass)values(?,?,?,?,?,?)";
     const values=[
         request.body.cnam,
         request.body.phno,
@@ -183,12 +184,12 @@ app.post('/useregister/',(request,response)=>{
         request.body.unam,
         request.body.pass
     ]
-    db.query(sql,[values],(err,data)=>{
+    db.query(sql,values,(err,data)=>{
         if(err)
         {
             return response.json(err+"Error is backend")
         }
-        return response.json(data+"Successfully is frontend")
+        return response.json(data)
     })
 })
 

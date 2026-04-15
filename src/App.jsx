@@ -22,7 +22,7 @@ import Funding from './component/Funding'
 import Orphanage from './component/Orphanage'
 import Property from './component/Property'
 import Adminpage from './component/Adminpage'
-import Contact from './component/contact'
+import Contact from './component/Contact'
 import About from './component/About'
 
 
@@ -45,12 +45,12 @@ function App() {
     <Route path="/Childrequestpage" element={<Childrequestpage/>}></Route>
     <Route path="/Usermenu" element={<Usermenu/>}></Route>
     <Route path="/Childmainpage" element={<Childmainpage/>}></Route>
-    <Route path="/Funding/" element={<Funding/>}></Route>
-    <Route path="/Orphanage/" element={<Orphanage/>}></Route>
-    <Route path="/Property/" element={<Property/>}></Route>
-    <Route path="/Adminpage/" element={<Adminpage/>}></Route>
-    <Route path="/Contact/" element={<Contact/>}></Route>
-    <Route path="/About/" element={<About/>}></Route>
+    <Route path="/Funding" element={<Funding/>}></Route>
+    <Route path="/Orphanage" element={<Orphanage/>}></Route>
+    <Route path="/Property" element={<Property/>}></Route>
+    <Route path="/Adminpage" element={<Adminpage/>}></Route>
+    <Route path="/Contact" element={<Contact/>}></Route>
+    <Route path="/About" element={<About/>}></Route>
 
 
   </Routes>

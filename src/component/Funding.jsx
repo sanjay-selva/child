@@ -34,7 +34,8 @@ console.log(uid,amout,date,purp)
   axios.post('http://localhost:5058/fundingsave/',{uid,amout,date,purp})
  
 .then(response=>{
-  console.log(response)
+  console.log(response);
+  alert("Payment successfully")
 })
 
 .catch(err=>{
@@ -67,7 +68,7 @@ console.log(uid,amout,date,purp)
   
  <div className=" ">
     <label for="amount" className="form-label">Amount </label>
-    <input type="number" className="form-control" name="amount" onChange={((e)=>setAmout(e.target.value))}  placeholder="Amount"  required />
+    <input type="text" className="form-control" name="amount" onChange={((e)=>setAmout(e.target.value))}  placeholder="Amount"  required />
   </div>
 
    <div className=" ">

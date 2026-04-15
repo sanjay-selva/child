@@ -16,7 +16,6 @@ export default function Child3(){
     const[lang,setLang]=useState("");
 
 
-
     const handleFileChange=(e)=>{
       setFile(e.target.files[0]);
     };
@@ -40,6 +39,7 @@ export default function Child3(){
        axios.post("http://localhost:5058/childform/",{cname,cid,gender,img,dt,issues,bgroup,age,phno,lang})
        .then(response=>{
           console.log(response);
+          alert("Child Form Submitted Successfully..!")
         })
         .catch(err=>console.log(err+"Error"))
       }

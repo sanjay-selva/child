@@ -254,7 +254,7 @@ h4 {
     align-items: center;
     background: linear-gradient(12deg, #d68408, white, #db710d, #d68408, white, #db710d);
     width: 100%;
-
+    
 }
 
 .card{
@@ -282,7 +282,7 @@ h4 {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background: linear-gradient(34deg, #e96c06, #ffffff, #ad630e, #e96c06, #ffffff, #ad630e);
 }
 

@@ -35,7 +35,7 @@ export default function Childdisplay(){
 
                 {
                     
-                    values.map((data,i)=>
+                    values.map((data,i)=>(
                <div className=" col-lg-4  col-sm-6">
         <div className="card  p-3 " id={i} >
   <img className="card-img-top" src={`http://localhost:5058/upload/image/${data.img}`}  alt="Set image"/>
@@ -51,7 +51,7 @@ export default function Childdisplay(){
   </div>
    </div>
    </div>
-  )}
+ ) )}
   </div>
   </div>
   

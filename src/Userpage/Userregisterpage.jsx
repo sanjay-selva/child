@@ -14,9 +14,11 @@ export default function Userregisterpage(){
 
     function handlesubmit(event){
         event.preventDefault();
+        console.log(cnam,phno,email,address,unam,pass)
         axios.post('http://localhost:5058/useregister/',{cnam,phno,email,address,unam,pass})
     .then(response=>{
         console.log(response.data)
+        alert("User Register Successfully..! Please Login")
     })
     .catch(err=>
         console.log({message:+err+"Error in front end."}))
