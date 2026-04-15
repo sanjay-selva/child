@@ -4,6 +4,7 @@ const cors=require("cors");
 const app=(express());
 const path=require('path');
 const multer=require('multer');
+app.use(express.static("dist"));
 const { request } = require("http");
 const { faDatabase } = require("@fortawesome/free-solid-svg-icons/faDatabase");
 app.use('/upload',express.static('upload'));
