@@ -6,7 +6,7 @@ export default function Childmenu(){
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar">
   <div className="container-fluid ">
      <a className="navbar-brand">
-      <img src="/src/image/6.png" alt="Logo" width="60" height="45" className="d-inline-block align-text-center"/>
+      <img src="/image/6.png" alt="Logo" width="60" height="45" className="d-inline-block align-text-center"/>
       <h1 className="d-inline-block align-text-top">Orphanage</h1>
     </a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"

@@ -42,7 +42,7 @@ export default function Property(){
         <div className="card  cad-img">
           
     
-       <img src="/src/image/12.jpg" className="w-50 m-3" alt="Loading" />
+       <img src="/image/12.jpg" className="w-50 m-3" alt="Loading" />
     
     
       <div className="card-body ">
@@ -55,7 +55,7 @@ export default function Property(){
  {/* 3 rd image  */}
     <div className="card  img-card">
         
-       <img src="/src/image/10.jpg" className="w-50 m-3 " alt="Loading" />
+       <img src="/image/10.jpg" className="w-50 m-3 " alt="Loading" />
     
     
       <div className="card-body">

@@ -19,7 +19,7 @@ export default function Adminpage(){
             <h2 className="text-center m-3">Orphanage Chife's</h2>
         <div className="col-lg-3 col-sm-6 p-2">
                 <div className="card" >
-  <img src="/src/image/17.jpg" className="card-img-top w-100 p-2 my-4" alt="Loading" />
+  <img src="/image/17.jpg" className="card-img-top w-100 p-2 my-4" alt="Loading" />
   <div className="card-body">
     <p className="card-text"><b>Ms:</b> M.Saiera </p>
     <p> <FontAwesomeIcon icon={faMapPin}></FontAwesomeIcon>Kanyakumari</p>
@@ -32,7 +32,7 @@ export default function Adminpage(){
 <div className="col-lg-3 col-sm-6 p-2">
 <div className="card " >
     
-  <img src="/src/image/18.jpg" className="card-img-top w-100 p-2 my-4" alt="Loading" />
+  <img src="/image/18.jpg" className="card-img-top w-100 p-2 my-4" alt="Loading" />
   <div className="card-body">
     <p className="card-text"><b>Ms:</b> T.Stilyas </p>
      <p> <FontAwesomeIcon icon={faMapPin}></FontAwesomeIcon>Tirunelveli</p>
@@ -44,7 +44,7 @@ export default function Adminpage(){
 
 <div className="col-lg-3 col-sm-6 p-2">
 <div className="card" >
-  <img src="/src/image/19.jpg" className="card-img-top p-2 w-100 my-4" alt="Loading" />
+  <img src="/image/19.jpg" className="card-img-top p-2 w-100 my-4" alt="Loading" />
   <div className="card-body">
     <p className="card-text"><b>Mr:</b> E.S.Charles</p>
      <p> <FontAwesomeIcon icon={faMapPin}></FontAwesomeIcon>Thoothukudi</p>

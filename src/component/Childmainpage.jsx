@@ -23,7 +23,7 @@ export default function Childmainpage(){
    
     <div className="carousel-item active " data-bs-interval="3000">
        
-         <img src="/src/image/9.jpg" className="carousel-img"  alt="Logo" />
+         <img src="/image/9.jpg" className="carousel-img"  alt="Logo" />
           
           <div className="carousel-caption ">
             
@@ -38,7 +38,7 @@ export default function Childmainpage(){
     
     </div>
     <div className="carousel-item "  data-bs-interval="2000">
-      <img src="/src/image/8.jpg" className="carousel-img" alt="Logo" />
+      <img src="/image/8.jpg" className="carousel-img" alt="Logo" />
       <div className="carousel-caption  my-0">
         <h1>Child's Orphanage</h1>
         <p>A child orphanage is a place that provides care, shelter, education, and emotional support to children who have lost their parents or do not have family support. It ensures a safe environment where children can grow, learn good values, and build a better future. Orphanages also focus on the overall development of children by providing healthcare, education, and love.</p>
@@ -50,7 +50,7 @@ export default function Childmainpage(){
 </div>
     </div>
     <div className="carousel-item"  data-bs-interval="3000">
-      <img src="/src/image/1.jpg" className="carousel-img" alt="Logo" />
+      <img src="/image/1.jpg" className="carousel-img" alt="Logo" />
       <div className="carousel-caption  my-0">
         <h1>Child's Orphanage</h1>
         <p>A child orphanage is a place that provides care, shelter, education, and emotional support to children who have lost their parents or do not have family support. It ensures a safe environment where children can grow, learn good values, and build a better future. Orphanages also focus on the overall development of children by providing healthcare, education, and love.</p>
@@ -62,7 +62,7 @@ export default function Childmainpage(){
 </div>
     </div>
      <div className="carousel-item"  data-bs-interval="2000">
-      <img src="/src/image/4.jpg" className="carousel-img" alt="Logo" />
+      <img src="/image/4.jpg" className="carousel-img" alt="Logo" />
       <div className="carousel-caption  my-0">
         <h1>Child's Orphanage</h1>
         <p>A child orphanage is a place that provides care, shelter, education, and emotional support to children who have lost their parents or do not have family support. It ensures a safe environment where children can grow, learn good values, and build a better future. Orphanages also focus on the overall development of children by providing healthcare, education, and love.</p>
@@ -74,7 +74,7 @@ export default function Childmainpage(){
 </div>
     </div>
     <div className="carousel-item"  data-bs-interval="3000">
-      <img src="/src/image/2.jpg" className="carousel-img" alt="Logo" />
+      <img src="/image/2.jpg" className="carousel-img" alt="Logo" />
       <div className="carousel-caption  my-0">
         <h1>Child's Orphanage</h1>
         <p>A child orphanage is a place that provides care, shelter, education, and emotional support to children who have lost their parents or do not have family support. It ensures a safe environment where children can grow, learn good values, and build a better future. Orphanages also focus on the overall development of children by providing healthcare, education, and love.</p>
@@ -137,7 +137,7 @@ export default function Childmainpage(){
         <div className="card  cad-img">
           
     
-       <img src="/src/image/12.jpg" className="w-50 m-3" alt="Loading" />
+       <img src="/image/12.jpg" className="w-50 m-3" alt="Loading" />
     
     
       <div className="card-body ">
@@ -150,7 +150,7 @@ export default function Childmainpage(){
  {/* 3 rd image  */}
     <div className="card  img-card">
         
-       <img src="/src/image/10.jpg" className="w-50 m-3 " alt="Loading" />
+       <img src="/image/10.jpg" className="w-50 m-3 " alt="Loading" />
     
     
       <div className="card-body">
@@ -180,7 +180,7 @@ export default function Childmainpage(){
                <h2 className="text-center m-3">Orphanage Chife's</h2>
            <div className="col-lg-3 col-sm-6 p-2">
                    <div className="card" >
-     <img src="/src/image/17.jpg" className="card-img-top w-100 p-2 my-4" alt="Loading" />
+     <img src="/image/17.jpg" className="card-img-top w-100 p-2 my-4" alt="Loading" />
      <div className="card-body">
        <p className="card-text"><b>Ms:</b> M.Saiera </p>
        <p> <FontAwesomeIcon icon={faMapPin}></FontAwesomeIcon>Kanyakumari</p>
@@ -194,7 +194,7 @@ export default function Childmainpage(){
    <div className="col-lg-3 col-sm-6 p-2">
    <div className="card " >
        
-     <img src="/src/image/18.jpg" className="card-img-top w-100 p-2 my-4" alt="Loading" />
+     <img src="/image/18.jpg" className="card-img-top w-100 p-2 my-4" alt="Loading" />
      <div className="card-body">
        <p className="card-text"><b>Ms:</b> T.Stilyas </p>
         <p> <FontAwesomeIcon icon={faMapPin}></FontAwesomeIcon>Tirunelveli</p>
@@ -206,7 +206,7 @@ export default function Childmainpage(){
    
    <div className="col-lg-3 col-sm-6 p-2">
    <div className="card" >
-     <img src="/src/image/19.jpg" className="card-img-top p-2 w-100 my-4" alt="Loading" />
+     <img src="/image/19.jpg" className="card-img-top p-2 w-100 my-4" alt="Loading" />
      <div className="card-body">
        <p className="card-text"><b>Mr:</b> E.S.Charles</p>
         <p> <FontAwesomeIcon icon={faMapPin}></FontAwesomeIcon>Thoothukudi</p>

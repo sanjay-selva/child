@@ -54,7 +54,7 @@ console.log(uid,amout,date,purp)
                
                
     
-                    <h1 className=" text-light text-center"><img  src="/src/image/6.png" alt="" /> Funding </h1>
+                    <h1 className=" text-light text-center"><img  src="/image/6.png" alt="" /> Funding </h1>
                     <h2 className=" text-light text-center mb-1">Child Orphanage</h2>
             
 
