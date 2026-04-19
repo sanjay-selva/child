@@ -44,7 +44,7 @@ function App() {
     <Route path="/Userregisterpage" element={<Userregisterpage/>}></Route>
     <Route path="/Childrequestpage" element={<Childrequestpage/>}></Route>
     <Route path="/Usermenu" element={<Usermenu/>}></Route>
-    <Route path="/Childmainpage" element={<Childmainpage/>}></Route>
+    <Route path="/" element={<Childmainpage/>}></Route>
     <Route path="/Funding" element={<Funding/>}></Route>
     <Route path="/Orphanage" element={<Orphanage/>}></Route>
     <Route path="/Property" element={<Property/>}></Route>

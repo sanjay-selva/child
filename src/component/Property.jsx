@@ -20,7 +20,7 @@ export default function Property(){
 
   <div class="row g-0">
     <div class="col-md-4 d-inline-block justify-content-center align-items-center w-100 h-100">
-     <img src="src/image/11.jpg" className="card-img img-fluid rounded-start p-2" alt="Loading"/>
+     <img src="/image/11.jpg" className="card-img img-fluid rounded-start p-2" alt="Loading"/>
     </div>
     <div class="col-md-12">
       <div class="card-body">
